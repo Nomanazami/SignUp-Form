@@ -1,0 +1,29 @@
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+
+            background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+            background-position: center;
+            background-size: cover;
+        }
+
+        form {
+            background : rgb(101, 136, 192);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label, input, button {
+            display: block;
+            margin: 10px 0;
+        }
+        
+        h1{
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
